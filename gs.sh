@@ -1,7 +1,7 @@
 #!/bin/sh
 
 git add --all
-git commit -am "lesson source"
+git commit --amend --no-edit --date "$(date)"
 
 git push
 
