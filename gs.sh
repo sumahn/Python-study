@@ -1,5 +1,6 @@
 #!/bin/sh
 
+git pull 
 git add --all
 git commit --amend --no-edit --date "$(date)"
 
