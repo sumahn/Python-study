@@ -54,7 +54,7 @@ class quadrangle:
 
     def __get_area(self, x, y):
         result = x * y
-        print("\n{0}의 넓이는 {1}입니다.\n".format(self.name, result))
+        print("{0}의 넓이는 {1}입니다.\n".format(self.name, result))
 
 class rectangle(quadrangle):
     
@@ -62,22 +62,23 @@ class rectangle(quadrangle):
 
         self.name = "직사각형"
         self.msg = "가로와 세로는 (usage: 가로, 세로)  \n"
-        print("rectangle is created\n")
+        print("rectangle is created")
 
 class parallelogram(quadrangle):
 
     def __init__(self):
         self.name = "평행사변형"
         self.msg = "밑변과 높이는? (usage: 밑변, 높이)  \n"
-        print("parallelogram is created\n")
+        print("parallelogram is created")
 
 
-all_rects = [rectangle(), parallelogram()]
+
 while True:
     rect_type = input("사각형의 종류는 무엇입니까?\n(usage: 직사각형 >> 1  평행사변형 >> 2)\t (quit:q) \n>> ")
     if rect_type == 'q':
         break
 
+    all_rects = [rectangle(), parallelogram()]
     rect_idx = Casting.to_int(rect_type) - 1
     rect = all_rects[rect_idx] 
 
