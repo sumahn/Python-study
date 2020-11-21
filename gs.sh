@@ -2,7 +2,7 @@
 
 git pull 
 git add --all
-git commit --amend --no-edit --date "$(date)"
+git commit -m "lesson source"
 
 
 
