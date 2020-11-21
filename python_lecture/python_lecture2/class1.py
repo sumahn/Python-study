@@ -85,7 +85,9 @@ class Calc:
     
 calc1 = Calc()
 calc1.plus(1,3) # error 
-Calc().plus(1,3) # 성공
+Calc().plus(1,3) # 성공하는 결과
+
+
 
 class Test:
     def test(self):
