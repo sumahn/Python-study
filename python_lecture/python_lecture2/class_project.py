@@ -33,6 +33,7 @@ class parallelogram(quadrangle):
 # 사각형 클래스(2)
 
 class Casting:
+    
     def to_int(s):
         if type(s) == str:
             return int(s)

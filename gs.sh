@@ -2,7 +2,7 @@
 
 git pull 
 git add --all
-git commit -m "generated files on 'date + '%Y-%m-%d''";
+git commit -m "lesson source"
 
 
 
