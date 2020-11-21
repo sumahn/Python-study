@@ -59,7 +59,6 @@ class quadrangle:
 class rectangle(quadrangle):
     
     def __init__(self):
-
         self.name = "직사각형"
         self.msg = "가로와 세로는 (usage: 가로, 세로)  \n"
         print("rectangle is created")
