@@ -1,7 +1,7 @@
 #!/bin/sh
 
 DATE=`date +%Y-%m-%d`
-MSG="$DATE lesson"
+MSG="$DATE"
 if [ $# -gt 0 ]; then
     MSG="$1"
 fi
