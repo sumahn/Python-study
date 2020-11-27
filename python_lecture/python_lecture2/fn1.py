@@ -89,3 +89,6 @@ def factorial(n):
 
 factorial(4)
 
+#string functions
+s = "abc" # ['aaa','bbb', ...]
+"-".join(list(s)) # 구분자를 -로 해서 붙이겠다.
