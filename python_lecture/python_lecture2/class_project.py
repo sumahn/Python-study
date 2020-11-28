@@ -2,31 +2,31 @@
 
 ## 사각형 클래스 자식 > 직사각형(가로, 세로), 평행사변형(밑변, 높이)
 
-class quadrangle:
+# class quadrangle:
 
-    # 사각형 클래스 초기화
-    def __init__(self):
-        self.area = 0
-        self.bottom = 0
-        self.height = 0
+#     # 사각형 클래스 초기화
+#     def __init__(self):
+#         self.area = 0
+#         self.bottom = 0
+#         self.height = 0
     
-    # 넓이 구하는 공식
-    def get_area(self, bottom, height):
-        self.area = bottom * height
+#     # 넓이 구하는 공식
+#     def get_area(self, bottom, height):
+#         self.area = bottom * height
         
-        return self.area
+#         return self.area
 
-class rectangle(quadrangle):
-    def __init__(self):
-        self.area = 0
-        self.bottom = 0
-        self.height = 0
+# class rectangle(quadrangle):
+#     def __init__(self):
+#         self.area = 0
+#         self.bottom = 0
+#         self.height = 0
 
-class parallelogram(quadrangle):
-    def __init__(self):
-        self.area=0
-        self.bottom=0
-        self.height=0 
+# class parallelogram(quadrangle):
+#     def __init__(self):
+#         self.area=0
+#         self.bottom=0
+#         self.height=0 
 
 
 
@@ -34,6 +34,7 @@ class parallelogram(quadrangle):
 
 class Casting:
     
+    @staticmethod
     def to_int(s):
         if type(s) == str:
             return int(s)
@@ -47,8 +48,8 @@ class quadrangle:
         self.name = "quadrangle"
         print("quadrangle is created\n")
 
-    def input_data(self):
-        datum = input(self.msg) # 5,3
+    def input_data(self, msg):
+        datum = input(msg) # 5,3
         data = datum.split(',')
         x, y = Casting.to_int(data[0]), Casting.to_int(data[1]) #['5','3']
         return self.__get_area(x,y)
