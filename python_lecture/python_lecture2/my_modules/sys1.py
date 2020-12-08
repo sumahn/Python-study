@@ -17,8 +17,8 @@ print("++++++++++++++>>", sys.path)
 
 
 
-from mysys import clear
-clear()
+# from mysys import clear
+# clear()
 
 
 print(sys.argv, len(sys.argv))
