@@ -7,7 +7,7 @@ options.headless = True
 options.add_argument("window-size=1920x1080")
 options.add_argument("user-agent= Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36")
 
-browser = webdriver.Chrome("PYTHONWORKSPACE/chromedriver.exe", options=options)
+browser = webdriver.Chrome("PYTHONWORKSPACE/webscrapping_basic/chromedriver.exe", options=options)
 browser.maximize_window()
 
 url = "https://www.whatismybrowser.com/detect/what-is-my-user-agent"
