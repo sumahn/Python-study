@@ -1,5 +1,5 @@
 <head>
-  <title>Python study
+  </title>Python study
 </head>
 <body>
 <h1>
