@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-browser = webdriver.Chrome("PYTHONWORKSPACE/chromedriver.exe")
+browser = webdriver.Chrome("WEBSCRAPPING\chromedriver.exe")
 browser.maximize_window()
 
 # 페이지 접속
@@ -59,7 +59,7 @@ for movie in movies:
     if original_price:
         original_price = original_price.get_text()
     else:
-        print(title, "<할인되지 않은 영화 제외>")
+        print(title, "      <할인되지 않은 영화 제외>")
         continue
 
     # 할인된 가격
