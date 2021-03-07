@@ -9,4 +9,5 @@ test.txt
 google_movie.png
 movie.html
 11111.txt
-PYTHONWORKSPACE/jh_project/**
+PYTHONWORKSPACE/jh_project/
+chromedriver.exe**
