@@ -1,0 +1,7 @@
+/* @theme mytheme */
+
+@import 'default';
+
+section {
+  background: #fa0;
+}
