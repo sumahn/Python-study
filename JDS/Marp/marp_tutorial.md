@@ -1,9 +1,15 @@
 ---
 marp: true
+paginate: true
+_paginate: false
+
+header: '**SM**'
+footer: '_SM_'
 
 ---
 
 # Marp로 ppt 슬라이드 만들기
+
 
 
 
@@ -31,6 +37,8 @@ marp: true
  - 이걸 marp: true 랑 같이 기입해주면 배경색 조정가능함. 
 
      ex) backgroundColor: #FFFFF0
+
+
 
 ---
 ## 4. 이미지 넣기
@@ -112,7 +120,7 @@ def greet_function(sentence):
 
 ---
 ### 6. 배경화면 옆으로 치워버리기
-![bg left](Jobs.jpeg)
+![bg right](Jobs.jpeg)
 
 ---
 ### 7. 페이지 설정하기 
